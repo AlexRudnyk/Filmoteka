@@ -1,0 +1,15 @@
+@import 'abstracts/variables', 'abstracts/mixins', 'abstracts/visually-hidden';
+
+@import 'vendors/normalize';
+
+@import 'base/base', 'base/typography', 'base/reset', 'base/container',
+  'base/animations';
+
+@import 'layout/header', 'layout/home-cards', 'layout/footer';
+
+@import 'components/search_films_by_keywords', 'components/translation-select';
+
+@import 'components/advertising', 'components/form',
+  'components/footer-modal', 'components/pagination', 'components/modal',
+  'components/btn', 'components/card-markup', 'components/scroll-up-btn',
+  'components/modal-students', 'components/spinner', 'components/bg-ChangeColor';

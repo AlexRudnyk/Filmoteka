@@ -1,0 +1,62 @@
+<header class="page-header">
+  <div class="container page-header__container">
+    <nav class="navigation">
+      <a class="logo link" href="./index.html">
+        <svg class="logo__icon" width="24" height="24">
+          <use href="./images/symbol-defs.svg#film-icon"></use>
+        </svg>
+        <span class="logo__text"> Filmoteka </span>
+      </a>
+
+      <ul class="menu list">
+        <li class="menu__item">
+          <a
+            class="menu__link link menu__link--current"
+            data-key="home"
+            href="./index.html"
+            >Home</a
+          >
+        </li>
+        <li class="menu__item">
+          <a
+            class="library menu__link link menu__link--ancurrent"
+            data-key="library"
+            href="./library.html"
+            >My library</a
+          >
+        </li>
+      </ul>
+
+      <select name="" id="" data-switcher class="lang">
+        <option value="en-US" class="option-value">EN</option>
+        <option value="uk-UA" class="option-value">UA</option>
+      </select>
+    </nav>
+
+    <form class="search-form" name="search-form">
+      <label class="search-form__group">
+        <input
+          class="search-form__input"
+          type="text"
+          name="searchInput"
+          placeholder="Movie search"
+          data-key="search"
+          autocomplete="off"
+        />
+      </label>
+      <button class="search-form__button" type="submit">
+        <svg class="search-form__icon" width="12" height="12">
+          <use href="./images/symbol-defs.svg#search-icon"></use>
+        </svg>
+      </button>
+      <ul class="search-form__list list"></ul>
+    </form>
+    <a
+      class="mobile-charity link"
+      href="https://prytulafoundation.org/uk/home/support_page"
+      rel="noopener	nofollow noreferrer"
+      target="_blank"
+      ><img width="40" height="40" src="./images/hand-heart.png" alt="charity"
+    /></a>
+  </div>
+</header>
